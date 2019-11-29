@@ -16,15 +16,21 @@ spawnCircle();
 function spawnCircle() {
     setTimeout(function(){
 
-        var greenColors = ["#009600", "#008300", "#007600", "#006400", "#005800"];
+   
+  
+
+
+
+        var greenColors = ["#009600", "#798340", "#907640", "#436409", "#185890", "#110000"];
         var rdx = Math.floor(Math.random() * 1536);
         var rdy = Math.floor(Math.random() * 754);
         var rdc = Math.floor(Math.random() * 5);
+        var rds = Math.floor(Math.random() * 25);
         
 context.beginPath();
 context.lineWidth = "6.9";
 context.fillStyle = greenColors[rdc];
-context.arc(rdx,rdy,30,0,Math.PI*2);
+context.arc(rdx,rdy,rds,0,Math.PI*2);
 context.stroke();
 context.fill();
 
