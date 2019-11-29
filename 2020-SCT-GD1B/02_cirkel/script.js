@@ -21,7 +21,7 @@ function spawnCircle() {
 
 
 
-        var greenColors = ["#009600", "#798340", "#907640", "#436409", "#185890", "#110000"];
+        var greenColors = ["#66ff33", "#ff0000", "#6600ff", "#660033", "#0000ff", "#ccffcc"];
         var rdx = Math.floor(Math.random() * 1536);
         var rdy = Math.floor(Math.random() * 754);
         var rdc = Math.floor(Math.random() * 5);
